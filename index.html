@@ -1,11 +1,9 @@
 <!DOCTYPE HTML>
 <html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-    <title>Hyunyoung Jung</title>
-
-    <meta name="author" content="Hyunyoung Jung">
+    <meta charset="UTF-8">
+    <title>Sanchit Tanwar</title>
+    <meta name="author" content="Sanchit Tanwar">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
@@ -15,319 +13,285 @@
   <body>
     <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
       <tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-            <tr style="padding:0px">
-              <td style="padding:2.5%;width:63%;vertical-align:middle">
-                <p class="name" style="text-align: center;">
-                  Hyunyoung Jung
-                </p>
-                <p>I am a second-year Master's student at <a href="https://www.gatech.edu/">Georgia Institute of Technology</a>, majoring in Electrical and Computer Engineering.                
-                  I am currently being advised by <a href="https://faculty.cc.gatech.edu/~sha9/">Dr. Sehoon Ha</a> and closely working with <a href="https://www.dynamicrobot.kaist.ac.kr/">Dr. Hae-Won Park</a>. <br><br>
-                  I received my Bachelor's degree at <a href="https://www.snu.ac.kr/index.html"> Seoul National University</a> where I majored in Mechanical Engineering and Computer Science and Engineering.
-                </p>
-                <p style="text-align:center">
-                  <a href="mailto:hjung331@gatech.edu">Email</a> &nbsp;/&nbsp;
-                  <!-- <a href="cv.pdf">CV</a> &nbsp;/&nbsp; -->
-                  <!-- <a href="data/JonBarron-bio.txt">Bio</a> &nbsp;/&nbsp; -->
-                  <a href="https://scholar.google.com/citations?user=xR0ESPUAAAAJ&hl=ko&citsig=AD-1fHZJa2SAuKKkTInL3DjXIfy9">Google Scholar</a> &nbsp;/&nbsp;
-                  <a href="https://twitter.com/HyunyoungJung5">Twitter</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/HyunyoungJung/">Github</a>
-                </p>
-              </td>
-              <!-- <td style="padding:2.5%;width:40%;max-width:40%">
-                <a href="images/hyunyoung.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/hyunyoung.jpg" class="profile-photo"></a>
-              </td> -->
-              <td style="padding: 20px 20px 20px 0px; width: 25%;">
-                <img class="profile-photo" alt="profile photo" src="images/hyunyoung.jpg">
-            </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <h2>Research</h2>
-                <p>
-                  My research goal is to develop learning-based control algorithms that enable robust and agile locomotion and interactive behaviors within human environments. 
-                  For this, I am currently working on research in legged robot locomotion, employing an approach that integrates classical control and learning-based methods.
-                  I believe this approach can complement the drawbacks of each method by reducing the burden of reward engineering and improving the performance of the model-based method.  
-                  Furthermore, I am exploring the possibilities of human motion-driven control by establishing correspondence between humans and robots.
-                  <!-- Representative papers are <span class="highlight">highlighted</span>. -->
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-
-          <table>
-            <tbody>
-            <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle; line-height:10px">
-                    <h2>Publications and Preprints</h2><br>(*: equal contribution)
-                </td>
-            </tr>
-            </tbody>
-          </table>
-
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top:-20px"><tbody>
-            
-            <tr onmouseout="crossloco_stop()" onmouseover="crossloco_start()">
-              <td style="padding:20px;width:25%;vertical-align:top">
-                <div class="one">
-                  <div class="two" id='crossloco_image'><video  width=100% height=100% muted autoplay loop>
-                  <source src="project_teasers/crossloco/teaser.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-                  </video></div>
-                  <img src='project_teasers/crossloco/teaser.png' width="160">
-                </div>
-                <script type="text/javascript">
-                  function crossloco_start() {
-                    document.getElementById('crossloco_image').style.opacity = "1";
-                  }
-      
-                  function crossloco_stop() {
-                    document.getElementById('crossloco_image').style.opacity = "0";
-                  }
-                  crossloco_stop()
-                </script>
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:top">
-                <a href="projects/crossloco/crossloco.html">
-                  <span class="papertitle">CrossLoco: Human Motion Driven Control of Legged Robots via Guided Unsupervised Reinforcement Learning</span>
-                </a>
-                <br>
-                <a href="https://easypapersniper.github.io/">Tianyu Li</a>,
-                <strong>Hyunyoung Jung</strong>,          
-                <a href="https://sites.gatech.edu/matthew-gombolay/">Matthew Gombolay</a>, 
-                <a href="https://ce.gatech.edu/directory/person/yong-kwon-cho">Yong Kwon Cho</a>,
-                <a href="https://faculty.cc.gatech.edu/~sha9/">Sehoon Ha</a>
-                <br>
-                <em>ICLR</em>, 2024
-                <br>
-                <a href="projects/crossloco/crossloco.html">project page</a>
-                /
-                <a href="https://youtu.be/dBM2sTUcO-I">video</a>
-                /
-                <a href="https://arxiv.org/abs/2309.17046">arXiv</a>
-                /
-                <a href="https://openreview.net/pdf?id=UCfz492fM8">Paper</a>
-                <p></p>
-                <p>
-                  We introduce a guided unsupervised reinforcement learning framework that simultaneously learns robot skills and their correspondence to human motions.
-                </p>
-              </td>
-            </tr>
-            
-            <tr onmouseout="ifm_stop()" onmouseover="ifm_start()">
-              <td style="padding:20px;width:25%;vertical-align:top">
-                <div class="one">
-                  <div class="two" id='ifm_image'><video  width=100% height=100% muted autoplay loop>
-                  <source src="project_teasers/IFM_teaser/teaser.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-                  </video></div>
-                  <img src='project_teasers/IFM_teaser/IFM_teaser.png' width="160">
-                </div>
-                <script type="text/javascript">
-                  function ifm_start() {
-                    document.getElementById('ifm_image').style.opacity = "1";
-                  }
-
-                  function ifm_stop() {
-                    document.getElementById('ifm_image').style.opacity = "0";
-                  }
-                  ifm_stop()
-                </script>
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:top">
-                <a href="projects/ifm/ifm.html">
-                  <span class="papertitle">Imitating and Finetuning Model Predictive Control for Robust and Symmetric Quadrupedal Locomotion</span>
-                </a>
-                <br>
-                Donghoon Youm*,
-                <strong>Hyunyoung Jung*</strong>,
-                Hyeongjun Kim,
-                <a href="https://www.railab.kaist.ac.kr/">Jemin Hwangbo</a>,  <br>
-                <a href="https://www.dynamicrobot.kaist.ac.kr/">Hae-Won Park</a>,
-                <a href="https://faculty.cc.gatech.edu/~sha9/">Sehoon Ha</a>
-                <br>
-                <em>RA-L</em>, 2023
-                <br>
-                <a href="projects/ifm/ifm.html">project page</a>
-                /
-                <a href="https://youtu.be/KmL7mlGBkys">video</a>
-                /
-                <a href="https://arxiv.org/abs/2311.02304">arXiv</a>
-                <p></p>
-                <p>
-                  We propose a learning framework that can bridge between model-based and learning-based approaches for legged robot control by imitating expert model predictive control (MPC) and fine-tuning the pre-trained policy with reinforcement learning.
-                </p>
-              </td>
-            </tr>
-      
-      
-
-          </tbody></table>
-
-          <table>
-            <tbody>
-            <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle; line-height:10px">
-                    <h2>Ongoing Projects </h2><br>
-                </td>
-            </tr>
-            </tbody>
-          </table>
-          
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top:-25px"><tbody>
-            
-            <tr onmouseout="digit_ifm_stop()" onmouseover="digit_ifm_start()">
-              <td style="padding:20px;width:25%;vertical-align:top">
-                <div class="one">
-                  <div class="two" id='digit_ifm_image'><video  width=100% height=100% muted autoplay loop>
-                  <source src="project_teasers/digit_ifm/teaser.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-                  </video></div>
-                  <img src='project_teasers/digit_ifm/teaser.png' width="160">
-                </div>
-                <script type="text/javascript">
-                  function digit_ifm_start() {
-                    document.getElementById('digit_ifm_image').style.opacity = "1";
-                  }
-      
-                  function digit_ifm_stop() {
-                    document.getElementById('digit_ifm_image').style.opacity = "0";
-                  }
-                  digit_ifm_stop()
-                </script>
-              </td>
-
-              <td style="padding:20px;width:75%;vertical-align:top">
-                <span class="papertitle">Humanoid locomotion with learning-based method leveraging model-based control</span>
-                <p>
-                  Training the locomotion of full-sized humanoids is a challenging task and less investigated in a learning-based control society compared to quadrupedal robot locomotion. 
-                  Unlike quadrupeds, the humanoids have more complicated structures making it hard to use a straightforward model-free reinforcement learning approach.
-                  <br>
-                  In this project, we address this issue by utilizing our established framework, IFM, to enhance the robustness of humanoid locomotion, specifically solving instability in the reinforcement learning stage.
-                </p>
-              </td>
-            </tr>
-            </tbody>
+        <tr style="padding:0px">
+          <td style="padding:0px">
+            <!-- Header Section -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+              <tbody>
+                <tr style="padding:0px">
+                  <td style="padding:2.5%;width:63%;vertical-align:middle">
+                    <p class="name" style="text-align: center;">
+                      <strong style="font-size: 2em;">Sanchit Tanwar</strong>
+                    </p>
+                    <p style="text-align:center;">
+                      Graduate Student, M.S. in Computer Science<br>
+                      <a href="https://www.gatech.edu/">Georgia Institute of Technology</a>, Atlanta, GA
+                    </p>
+                    <p style="text-align:center">
+                      <a href="mailto:stanwar8@gatech.edu">Email</a> &nbsp;/&nbsp;
+                      <a href="https://github.com/sanchit2843">Github</a> &nbsp;/&nbsp;
+                      <a href="https://linkedin.com/in/sanchit2843">LinkedIn</a>
+                    </p>
+                  </td>
+                  <td style="padding:20px 20px 20px 0px; width:25%;">
+                    <!-- Add your profile photo here -->
+                    <!-- Example: <img class="profile-photo" alt="profile photo" src="images/sanchit.jpg"> -->
+                  </td>
+                </tr>
+              </tbody>
             </table>
 
-          <table>
-            <tbody>
-            <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle; line-height:10px">
+            <!-- About / Research Interests -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+              <tbody>
+                <tr>
+                  <td style="padding:20px;width:100%;vertical-align:middle">
+                    <h2>About Me</h2>
+                    <p>
+                      I am a Master's student in Computer Science at Georgia Tech (expected graduation: Dec. 2025). 
+                      My interests lie at the intersection of robotics, computer vision, deep learning, and machine learning. 
+                      I have experience developing robust perception pipelines for robotic platforms, 3D reconstruction, 
+                      novel view synthesis, and integrating vision-language models. I am passionate about bridging the gap between 
+                      research and real-world robotics applications, focusing on improving localization, mapping, and autonomous behavior.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- Education -->
+            <table>
+              <tbody>
+                <tr>
+                  <td style="padding:20px;width:100%;vertical-align:middle; line-height:10px">
                     <h2>Education</h2><br>
-                </td>
-            </tr>
-            </tbody>
-          </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto; margin-top:-25px"><tbody>
-            <tr onmouseout="alignerf_stop()" onmouseover="alignerf_start()">
-              <td style="padding:0px 10px 20px 23px;vertical-align:top">
-                <h3 style="line-height: 0.5;" > Georgia Institute of Technology </h3>
-                <em>M.S in Electrical and Computer Engineering</em>
-              </td>
-              <td style="padding:10px;width:35%;vertical-align:top">
-                <em>Aug. 2022 - Present</em>
-              </td>
-            </tr>
-      
-            <tr onmouseout="alignerf_stop()" onmouseover="alignerf_start()">
-              <td style="padding:0px 10px 20px 23px;width:65%;vertical-align:top">
-                <h3 style="line-height: 0.5;"> Seoul National University </h3>
-                <em>B.S. in Mechanical Engineering</em>
-                <br>
-                <em>B.S. in Computer Science and Engineering</em>
-              </td>
-              <td style="padding:10px;width:35%;vertical-align:top">
-                <em>Mar. 2016 - Aug. 2022</em>
-              </td>
-            </tr>
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top:-25px">
+              <tbody>
+                <tr>
+                  <td style="padding:0px 10px 20px 23px;vertical-align:top">
+                    <h3 style="line-height: 0.5;">Georgia Institute of Technology</h3>
+                    <em>M.S. in Computer Science</em><br>
+                    <em>Aug. 2023 - Dec. 2025 (Expected)</em>
+                    <p>Relevant Courses: Deep Learning, Robotics: AI Techniques, Vision-Language Models, Machine Learning, Computer Vision</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding:0px 10px 20px 23px;vertical-align:top">
+                    <h3 style="line-height: 0.5;">Thapar Institute of Engineering and Technology</h3>
+                    <em>B.E. in Electronics and Communication Engineering</em><br>
+                    <em>Aug. 2016 - Aug. 2020</em>
+                    <p>Capstone: Health Cad – ML Algorithms for Computer Aided Diagnosis</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
 
-      
-          </tbody></table>
+            <!-- Experience -->
+            <table>
+              <tbody>
+                <tr>
+                  <td style="padding:20px;width:100%;vertical-align:middle; line-height:10px">
+                    <h2>Experience</h2><br>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
 
-          <table>
-            <tbody>
-            <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle; line-height:10px">
-                    <h2>Work and Teaching Experiences</h2><br>
-                </td>
-            </tr>
-            </tbody>
-          </table>
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto; margin-top:-25px">
+              <tbody>
+                <tr>
+                  <td style="padding:0px 10px 20px 23px;vertical-align:top;width:65%;">
+                    <h3 style="line-height: 0.5;">Research Assistant</h3>
+                    <em>CORE Robotics Lab, Georgia Tech</em> <br>
+                    <em>Aug. 2024 – Present</em>
+                    <p>
+                      • Real-time localization of a wheelchair robot in a tennis court using onboard cameras and known court geometry.<br>
+                      • Developing tennis ball motion forecasting and robot trajectory planning from broadcast videos, 
+                        leveraging vision-language models and tracking algorithms to inform robotic behavior.
+                    </p>
+                  </td>
+                </tr>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto; margin-top:-25px"><tbody>
-            <tr onmouseout="alignerf_stop()" onmouseover="alignerf_start()">
-              <td style="padding:0px 10px 20px 23px;width:65%;vertical-align:top">
-                <h3 style="line-height: 0.5;"> CS 8803 Deep Reinforcment Learning for Intel. Control</h3>
-                <em>Teaching Asistant</em>
-                <br>
-                <em>Georgia Institute of Technology</em>
-              </td>
-              <td style="padding:10px;width:35%;vertical-align:top">
-                <em>Spring 2024</em>
-              </td>
-            </tr>
-            <tr onmouseout="alignerf_stop()" onmouseover="alignerf_start()">
-              <td style="padding:0px 10px 20px 23px;width:65%;vertical-align:top">
-                <h3 style="line-height: 0.5;"> CS 3451 Computer Graphics </h3>
-                <em>Teaching Asistant</em>
-                <br>
-                <em>Georgia Institute of Technology</em>
-              </td>
-              <td style="padding:10px;width:35%;vertical-align:top">
-                <em>Spring 2023</em>
-              </td>
-            </tr>
+                <tr>
+                  <td style="padding:0px 10px 20px 23px;vertical-align:top;width:65%;">
+                    <h3 style="line-height: 0.5;">Machine Learning Engineer II</h3>
+                    <em>Clutterbot Technologies, Bengaluru, India</em><br>
+                    <em>Dec. 2022 – Aug. 2024</em>
+                    <p>
+                      • Developed end-to-end indoor 3D reconstruction, novel view synthesis, and object detection pipelines.<br>
+                      • Improved detection/segmentation performance via diffusion-based augmentation, knowledge distillation, and weak supervision.<br>
+                      • Deployed INT8-quantized multi-task perception model reducing computation by 30%.<br>
+                      • Achieved high-accuracy monocular object mapping and occupancy estimation for robotic navigation.
+                    </p>
+                  </td>
+                </tr>
 
-            <tr onmouseout="alignerf_stop()" onmouseover="alignerf_start()">
-              <td style="padding:0px 10px 20px 23px;width:65%;vertical-align:top">
-                <h3 style="line-height: 0.5;"> Saige Research </h3>
-                <em>Research Intern</em>
-              </td>
-              <td style="padding:10px;width:35%;vertical-align:top">
-                <em>Apr. 2021 - Dec. 2021</em>
-              </td>
-            </tr>
-      
-            <tr onmouseout="alignerf_stop()" onmouseover="alignerf_start()">
-              <td style="padding:0px 10px 20px 23px;width:65%;vertical-align:top">
-                <h3 style="line-height: 0.5;"> Samsung Electronics </h3>
-                <em>Student Intern</em>
-              </td>
-              <td style="padding:10px;width:35%;vertical-align:top">
-                <em>Jan. 2021 - Feb. 2021</em>
-              </td>
-            </tr>
+                <tr>
+                  <td style="padding:0px 10px 20px 23px;vertical-align:top;width:65%;">
+                    <h3 style="line-height: 0.5;">Computer Vision Engineer</h3>
+                    <em>Tech Mahindra, Bengaluru, India</em><br>
+                    <em>Aug. 2021 – Nov. 2021</em>
+                    <p>
+                      • Integrated heuristics and ASRF-based deep learning methods for enhanced video segmentation and action recognition.<br>
+                      • Improved operator efficiency calculation in assembly processes.
+                    </p>
+                  </td>
+                </tr>
 
-      
-          </tbody></table>
+                <tr>
+                  <td style="padding:0px 10px 20px 23px;vertical-align:top;width:65%;">
+                    <h3 style="line-height: 0.5;">Assistant Research Fellow</h3>
+                    <em>CVIT, IIIT Hyderabad</em><br>
+                    <em>Mar. 2021 – Jul. 2021</em>
+                    <p>
+                      • Developed pothole detection, tracking, and geotagging system on moving vehicle platforms.<br>
+                      • Overcame challenges in distinguishing potholes from visually similar artifacts (water patches, polythene).
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td style="padding:0px 10px 20px 23px;vertical-align:top;width:65%;">
+                    <h3 style="line-height: 0.5;">Computer Vision Research Engineer</h3>
+                    <em>Attentive.ai, Noida, India</em><br>
+                    <em>Jan. 2020 – Feb. 2021</em>
+                    <p>
+                      • Enhanced instance/semantic segmentation models using aerial imagery, improved boundary scores and integrated SOTA techniques.<br>
+                      • Implemented continual learning to handle incremental data efficiently.<br>
+                      • Developed semantic change detection methods aiding insurance claim processes.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- Selected Projects -->
+            <table>
+              <tbody>
+                <tr>
+                  <td style="padding:20px;width:100%;vertical-align:middle; line-height:10px">
+                    <h2>Selected Projects</h2><br>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top:-25px">
+              <tbody>
+                <tr>
+                  <td style="padding:0px 10px 20px 23px;vertical-align:top;">
+                    <h3>Language-guided 3D Scene Editing in Gaussian Splat Representations (Aug. 2024 - Present)</h3>
+                    <p>
+                      • Fusing language (CLIP) and instance-level Gaussian splats to enable arbitrary scene editing via text instructions.
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding:0px 10px 20px 23px;vertical-align:top;">
+                    <h3>Open Vocabulary 3D Semantic Scene Completion (Aug. 2024 - Present)</h3>
+                    <p>
+                      • Predicting open-vocabulary semantic occupancy from single images, leveraging UniDepth for monocular depth estimation.<br>
+                      • Working towards multi-level detail occupancy predictions.
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding:0px 10px 20px 23px;vertical-align:top;">
+                    <h3>Monocular 3D Object Detection for Autonomous Driving (Feb. 2024 - May. 2024)</h3>
+                    <p>
+                      • Improved 3D IoU on KITTI by integrating RGB, HHA depth maps, and a Centernet-style architecture for object detection.
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding:0px 10px 20px 23px;vertical-align:top;">
+                    <h3>Repetitive Action Counting (Aug. 2022 - Dec. 2022)</h3>
+                    <p>
+                      • Developed a multi-stream model (TransRac) for exercise counting, improving OBO by 26% and MAE by 10%.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- Publications and Patents -->
+            <table>
+              <tbody>
+                <tr>
+                  <td style="padding:20px;width:100%;vertical-align:middle; line-height:10px">
+                    <h2>Patents and Publications</h2><br>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
             
-          </tbody></table>
-      
-    
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top:-25px">
+              <tbody>
+                <tr>
+                  <td style="padding:0px 10px 20px 23px;vertical-align:top;">
+                    <p>
+                      [1] S. Tanwar, S. Singh, M. Suthar. <em>AdaptAI: System for automated personalization of deep learning models</em> (Patent filing in progress).
+                    </p>
+                    <p>
+                      [2] S. Tanwar, V. Kumar, S. Sharma. "Engagement measurement of a learner during e-learning: A deep learning architecture." <em>International Conference on Parallel, Distributed and Grid Computing (PDGC)</em>, 2022.
+                    </p>
+                    <p>
+                      [3] S. Tanwar, A. Tiwari, R. Chowdhry. "Indian Licence Plate Dataset in the wild." (ArXiv, 2021)
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
 
+            <!-- Additional Information -->
+            <table>
+              <tbody>
+                <tr>
+                  <td style="padding:20px;width:100%;vertical-align:middle; line-height:10px">
+                    <h2>Additional Information & Volunteer Work</h2><br>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
 
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top:-25px">
+              <tbody>
+                <tr>
+                  <td style="padding:0px 10px 20px 23px;vertical-align:top;">
+                    <p>
+                      • Teaching Assistant for Graduate Deep Learning Course at Georgia Tech.<br>
+                      • Developed and delivered a 10-lecture Computer Vision course to strengthen participants' understanding of advanced CV techniques.<br>
+                      • Served as General Secretary/Overall Head at IETE, Thapar University, organizing robotics and CV workshops, and mentoring student projects.<br>
+                      • Authored popular deep learning and computer vision blog posts with 300k+ views.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
 
+            <!-- Footer -->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+              <tbody>
+                <tr>
+                  <td style="padding:0px">
+                    <br>
+                    <p style="text-align:right;font-size:small;">
+                      Template inspired by: <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a><br>
+                      Last update: Dec. 2024
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:0px">
-                <br>
-                <p style="text-align:right;font-size:small;">
-                  This template was borrowed from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a>
-                  Last update: Mar.2024
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-        </td>
-      </tr>
+          </td>
+        </tr>
+      </tbody>
     </table>
   </body>
 </html>
